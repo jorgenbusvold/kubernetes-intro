@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: gcr.io/stalwart-entity-122010/github.com/jorgenbusvold/kubernetes-intro/backend:cv-backend-1
         ports:
         - containerPort: 5000
